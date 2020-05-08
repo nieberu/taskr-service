@@ -44,4 +44,6 @@ http://localhost:8080/swagger-ui.html#/
 
 You should see the Swagger page for the project with all the services described
 
+In case you don't have docker or you don't wish to use it, you can still run the service from a capable IDE. IntelliJ was used throughout the development process so it can be used. Others work fine too. Just build and run the imported project from the IDE and head to the URL above to verify if the service is UP.
+
 Note: data.sql is used to populate the database on the first launch. Delete that file in order to have a fresh and empty database.
